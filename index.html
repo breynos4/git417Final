@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pui Pui Molcar | Home</title>
+        <meta name="author" content="Bianca Reynoso">
+        <meta name="description" content="Pui Pui Molcar | Browse Merch">
+		<link href="stylesheet.css" rel="stylesheet">
+        <script async src="myscript.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><img src="images/pui-pui-molcar-shiromo.png" alt="Shiromo surprised" class="shiromo"></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#molcars">Meet the Molcars!</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button onclick="darkMode()" id="mybtn">☽</button>
+        </nav>
+        <header id="home">
+            <h1>Pui Pui Molcar</h1>
+            <p class="info">They're guinea pigs! And they're cars! The fuzzy and adorable molcars have lots of fun adventures in this delightful stop-motion animation.</p>
+            <img src="images/AAAABQ2sdWp88HKmZrTRJmq5a_Js0Ssn8_A0n6aqSwkgS_VVoE3SkUaydcs0YMKjh91QyhFm21hmJMHyH52KQc4JpSZEWZ4i3gKf2ZBz.jpg" alt="Potato Molcar looking scared">
+            <!-- NETFLIX SERIES IMAGE BANNER -->
+            <p><a href="https://www.netflix.com/title/81416349#:~:text=They're%20guinea%20pigs!,this%20delightful%20stop%2Dmotion%20animation." target="_blank">Stream on Netflix</a></p>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>Pui Pui Molcar is a Japanese stop-motion short anime series produced by Shin-Ei Animation and Japan Green Hearts in cooperation with Bandai Namco Entertainment. The series is directed and written by Tomoki Misato, with Misato and the staff in Japan Green Hearts designing the characters and models and Shota Kowatsu composing the music. It aired in Japan on TV Tokyo through its Kinder TV children's variety program on January 5, 2021. The series' title is a play on the words Molmot (モルモット, morumotto, the Japanese word for guinea pig) and car, which reflects the main characters. Upon its release, it was received positively by fans and critics due to its simple storyline in each episode.</p>
+                <p>Several merchandise tied to the series were released, with Eikoh announced the characters of the series will be released as part of the Mochikororin Plush Mascot line of mini plush toys on February 5, 2021. Good Smile Company released a Nendoroid figure of Potato first announced on Wonder Hobby 33 in April 2022, that has compatibility with certain recently released Nendoroid figures.</p>
+            </section>
+            <h2 class="merch">Merch</h2>
+            <div id="merch">
+                <section>
+                    <img src="images/61x21Kb-t7S._AC_SX679_.jpg" alt="potato nendo">
+                    <!-- FOUND ON AMAZON -->
+                    <h3>Potato Nendoroid</h3>
+                    <p>$51.99</p>
+                    <button id="potatoAdd">Add to Cart</button>
+                    <button id="potatoRemove">REMOVE</button>
+                </section>
+                <section>
+                    <img src="images/angelAbbey.webp" alt="angel abbey figure">
+                    <!-- FOUND ON WONHOBBY -->
+                    <h3>Moderoid Magical Angel Abbey</h3>
+                    <p>$8.99</p>
+                    <button id="abbeyAdd">Add to Cart</button>
+                    <button id="abbeyRemove">REMOVE</button>
+                </section>
+                <section>
+                    <img src="images/shiromoPlush.webp" alt="shiromo plush">
+                    <!-- FOUND ON WALMART -->
+                    <h3>11-Inch Shiromo, Ultrasoft Stuffed Animal</h3>
+                    <p>$11.99</p>
+                    <button id="shiromoAdd">Add to Cart</button>
+                    <button id="shiromoRemove">REMOVE</button>
+                </section>
+            </div>
+            <div id="cart">
+                <section>
+                    <h2>Your Cart</h2>
+                    <h3>Subtotal</h3>
+                    <p id="subtotal">$</p>
+                    <h3>Tax</h3>
+                    <p>2%</p>
+                    <h3>Shipping</h3>
+                    <p>$5.00</p>
+                    <h3>Total</h3>
+                    <p id="total">$</p>
+                    <button id="merchConf">Purchase</button>
+                </section>
+                <div>
+                    <img src="images/tray_large.webp" alt="group photo of the molcars">
+                </div>
+            </div>
+            <h2 class="meet">Meet the Molcars!</h2>
+            <div id="molcars">
+                <section>
+                    <h3>Potato <i>(ポテト, Poteto)</i></h3>
+                    <img src="images/PPM_photo_Potato.webp" alt="Profile Picture of Potato">
+                    <!-- ALL MOLCAR IMAGES COME FROM THE OFFICIAL MOLCAR WIKIPEDIA -->
+                    <p>A male beige Molcar with orange patches. He is shown to be laid back but also ready to help anyone in need, something that is proven by helping out an ambulance Molcar weave through a traffic jam. Shown to like carrots.</p>
+                </section>
+                <section>
+                    <h3>Shiromo <i>(シロモ, Shiromo)</i></h3>
+                    <img src="images/PPM_photo_Shiromo.webp" alt="Profile Picture of Shiromo">
+                    <p>A male white Molcar with a cowardly personality who easily gets into trouble. He yearns for Teddy "like an older sister", but his bad luck always leads him to trouble, from being hijacked to becoming a Zombie Molcar. Shown to like lettuce.</p>
+                </section>
+                <section>
+                    <h3>Abbey <i>(アビー, Abī)</i></h3>
+                    <img src="images/PPM_photo_Abbey.webp" alt="Profile Picture of Abbey">
+                    <p>An off-white male Molcar with a spiky top and <a href="https://en.wikipedia.org/wiki/Shoshinsha_mark" target="_blank">beginner's marks</a> on the sides. He has a fear of cats which he had overcome with help from his friends. He also is profiled to be serious, curious, and extremely proud.</p>
+                </section>
+                <section>
+                    <h3>Choco <i>(チョコ, Choko)</i></h3>
+                    <img src="images/PPM_photo_Choco.webp" alt="Profile Picture of Choco">
+                    <p>A female chocolate brown Molcar with flowers on her ears/side mirrors. Although profiled to be as somewhat of a fashionista, she is also shown to be strong and fit.</p>
+                </section>
+            </div>
+        </main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div id="form">
+                <form id="contactUs">
+                    <label for="userName">Name<span class="required">*</span></label>
+                    <span class="message">Please enter your first and last name</span>
+                    <input type="text" name="userName" id="userName" required>
+                    <label for="userPhone">Phone</label>
+                    <span class="phoneEnter">Please enter your phone number</span>
+                    <input type="tel" name="userPhone" id="userPhone" required>
+                    <label for="userEmail">Email</label>
+                    <span class="emailEnter">Please enter your email</span>
+                    <input type="email" name="userEmail" id="userEmail" required>
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                        <input type="radio" name="contactpref" id="prefemail" checked required>
+                        <label for="prefemail">Email</label>
+                        <input type="radio" name="contactpref" id="prefphone">
+                        <label for="prefphone">Phone</label>
+                    </fieldset>
+                    <label for="mycomments">Comments<span class="required">*</span></label>
+                    <span class="message">Please add a message</span>
+                    <textarea name="mycomments" id="mycomments" required></textarea>
+                    <input type="submit" name="mysubmit" id="mysubmit" value="Submit Form">
+                </form>
+                <img src="images/puupui.png" alt="Pui Pui Potato">
+                <section id="success" class="hide">
+                    <h4>Thank you!</h4>
+                    <p>You have successfully submitted the form. Here is the information you sent us:</p>
+                    <p id="formSub"></p>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2024 Pui Pui Molcar - All Rights Reserved</p>
+            <div>
+                <p><a href="#">Privacy Statement</a></p>
+                <p><a href="#">Terms of Service</a></p>
+            </div>
+            <p><i>This site is for educational purposes only.</i></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,498 @@
+:root {
+    --orange: #f17705;
+    --white: #fff;
+    --yellow: #fae514;
+    --red: #e50612;
+}
+/* font families, font sizes */
+p, h2, h3, h4, a, form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 15px;
+}
+h2 {
+    font-size: 35px;
+}
+/* body, creating fixed width */
+body {
+    width: 1280px;
+    background-color: #ADD8E6;
+    margin: 0 auto;
+}
+/* dark mode color */
+.dark-mode {
+    background-color: #192841;
+}
+/* nav styling */
+nav {
+    position: absolute;
+    background-color: var(--orange);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+nav a:hover {
+    color: var(--yellow);
+}
+nav li {
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+/* nav icon */
+.shiromo {
+    width: 40px;
+    margin-left: -30px;
+}
+nav img {
+    width: 30px;
+}
+/* END OF NAV */
+
+/* beginning header */
+header {
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 125px;
+    text-align: center;
+    border-style: dotted;
+    border-color: var(--yellow);
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 10px;
+    padding: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px var(--white);
+    color: var(--orange);
+}
+header p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.info {
+    background-color: var(--white);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 67%;
+    border-radius: 100px;
+    padding-bottom: 10px;
+}
+header a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--red);
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+}
+/* stream button */
+header a:hover {
+    color: var(--red);
+    background-color: var(--white);
+}
+/* END OF HEADER */
+
+/* beginning about */
+#about {
+    margin-top: -8px;
+    background-image: linear-gradient(var(--white), #efb226);
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#about h2 {
+    text-align: center;
+    color: var(--orange);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-style: dotted;
+    border-width: 10px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: var(--yellow);
+
+}
+#about p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+/* END OF ABOUT */
+
+/* beginning merch*/
+.merch {
+    text-align: center;
+    border-style: dotted;
+    padding: 10px;
+    border-width: 10px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: var(--yellow);
+    margin-bottom: 10px;
+    background-color: var(--white);
+}
+#merch {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 10px;
+    border-radius: 10px;
+}
+#merch section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--white);
+    margin: 10px;
+    border-radius: 10px;
+}
+#merch img {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 140px;
+}
+#merch h3 {
+    padding-top: 35px;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+#merch p {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 20px;
+}
+#merch button {
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    margin: 60px;
+    margin-top: 30px;
+    background-color: var(--orange);
+}
+#merch button:hover {
+    color: var(--yellow);
+}
+/* END OF MERCH */
+
+/* beginning of cart */
+#cart {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+#cart h2 {
+    text-align: center;
+    border-bottom: 10px dotted var(--yellow);
+    margin-right: 100px;
+}
+#cart h3 {
+    margin-left: 20px;
+}
+#cart p {
+    margin-left: 20px;
+}
+#cart img {
+    display: block;
+    padding-right: 50px;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 50px;
+}
+#cart button {
+    position: relative;
+    margin: 0 auto;
+    margin-left: 300px;
+    font-size: 30px;
+    background-color: var(--red);
+    color: var(--white);
+}
+#cart button:hover {
+    background-color: black;
+}
+/* END OF CART */
+
+/* beginning meet the molcars! */
+#molcars {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#molcars section {
+    margin: 10px;
+    background-image: linear-gradient(var(--white), #efb226);
+    border-radius: 10px;
+}
+#molcars img {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+#molcars h3 {
+    text-align: center;
+    font-size: 20px;
+    color: var(--orange);
+}
+#molcars p {
+    padding: 10px;
+    text-align: justify;
+}
+#molcars a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+#molcars a:hover {
+    color: var(--orange);
+}
+/* title */
+.meet {
+    text-align: center;
+    border-style: dotted;
+    padding: 10px;
+    border-width: 10px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: var(--yellow);
+    margin-bottom: -5px;
+    background-color: var(--white);
+}
+/* END OF MEET THE MOLCARS */
+
+/* beginning contact form */
+#contact h2 {
+    text-align: center;
+    border-style: dotted;
+    padding: 10px;
+    border-width: 10px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: var(--yellow);
+    margin-bottom: -5px;
+    background-color: var(--white);
+}
+#form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+/* placed on img on the side */
+#form img{
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+	color: #363432;
+	border-radius: 4px;
+    padding: 8px;
+}
+input, label, select, textarea {
+	display: block;
+	width: 100%;
+}
+label {
+	margin: 0 0 4px 16px;
+	font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+input, select, textarea {
+	padding: 5px;
+	font-size: 1rem;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border: 3px solid #efb226;
+}
+fieldset {
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border-color: var(--orange);
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px 0;
+}
+legend {
+	font-weight: bold;
+    color: black;
+}
+fieldset label {
+	margin-left: 0;
+    color: black;
+}
+input[type=submit] {
+	background-color: var(--orange);
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+    box-shadow: -6px 6px 10px #363432;
+}
+input:invalid, select:invalid, textarea:invalid {
+	border: 3px solid #efb226;
+}
+input:focus, select:focus, textarea:focus {
+	outline: 3px solid var(--yellow);
+}
+input[type=submit]:focus {
+	outline: 3px solid var(--yellow);
+}
+input[type=submit]:hover {
+	box-shadow: -3px 3px 5px #363432;
+    color: var(--yellow);
+}
+input[type=radio] + label {
+    cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+input[type=radio] {
+    appearance: none;
+    margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 0;
+	border-radius: 0;
+}
+input[type=radio] + label::before {
+    content: "\00a0";   
+	font-size: 2.25em;
+	line-height: 0.65;
+    border-radius: 50%;
+    display: inline-block;  
+    height: 20px;
+    width: 22px;
+    text-align: center;
+    margin-right: 16px;
+    border: 2px solid #efb226;   
+    background-color: #fff;
+	padding-bottom: 2px;
+}
+input[type=radio]:checked + label::before {
+    content: "\2022";
+    color: #efb226;
+    background: var(--orange);
+}
+input[type=radio]:focus{
+	outline: none;
+}
+input[type=radio]:focus + label::before {
+    box-shadow: 0 0 0 2px var(--yellow);
+}
+#form span {
+    color: var(--red);
+    font-weight: bold;
+}
+.message, .emailEnter, .phoneEnter {
+    display: none;
+}
+
+.errorInput {
+    border: 3px solid var(--red);
+}
+
+#success {
+    margin: 20px;
+}
+#success h4 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+#success.hide {
+    display: none;
+}
+#success.show {
+    display: block;
+}
+/* END OF FORM */
+
+/* beginning footer */
+footer {
+    background-color: var(--orange);
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: -10px;
+}
+footer p {
+    font-size: 10px;
+    margin-top: -1px;
+    color: #363432;
+}
+/* the links at the bottom */
+footer div {
+    display: flex;
+    margin-left: 541px;
+    margin-right: 400px;
+}
+footer a {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #363432;
+}
+footer a:hover {
+    color: var(--white);
+}
+/* END OF FOOTER */
+
+/* button styling */
+button {
+    margin-top: -10px;
+    font-size: 50px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--white);
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 15px;
+    right: 20px;
+}
+
+/* site is fixed to 1280px, centered on page */
